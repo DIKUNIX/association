@@ -16,11 +16,11 @@
 % enumereringen skal fortsætte på tværs af afsnit.
 \newenvironment{afsnitenum}{
   \begin{enumerate}[series=afsnit, %
-    label=\textsection~\arabic*., ref=\textsection~\arabic*]%
+    label=\textsection~\arabic*., ref=\arabic*]%
 }{\end{enumerate}}
 \newenvironment{stykenum}{
   \begin{enumerate}[%
-    label=Stk.~\arabic*., ref=\theenumi~Stk.~\arabic*, start=2]
+    label=Stk.~\arabic*., ref=\textsection~\theenumi~Stk.~\arabic*, start=2]
 }{\end{enumerate}}
 
 % Fint hoved og fod
@@ -51,7 +51,7 @@
 
 \begin{afsnitenum}
 
-\item Foreningens navn er "DIKUNIX".
+\item \label{navn} Foreningens navn er "DIKUNIX".
 
   \begin{stykenum}
 
@@ -60,8 +60,9 @@
 
   \end{stykenum}
 
-\item Foreningens formål er at opsætte og vedligeholde EDB-baserede tjenester
-til støtte af sociale foreninger og studerende i almindelighed på DIKU.
+\item \label{formaal} Foreningens formål er at opsætte og vedligeholde
+EDB-baserede tjenester til støtte af sociale foreninger og studerende i
+almindelighed på DIKU.
 
   \begin{stykenum}
 
@@ -99,7 +100,8 @@ den siddende bestyrelse.
 
 \begin{enumerate}[resume*=afsnit]
 
-\item Generalforsamlingen er foreningens øverste myndighed.
+\item \label{generalforsamling} \label{gf-start} Generalforsamlingen er
+foreningens øverste myndighed.
 
   \begin{stykenum}
 
@@ -163,9 +165,9 @@ den siddende bestyrelse.
 
 \begin{enumerate}[resume*=afsnit]
 
-\item Opstilling af kandidatur til bestyrelsen skal være bestyrelsen i hænde
-senest to uger før afholdelse af generalforsamlingen og gøres tilgængelig på
-foreningens webside mindst en uge før generalforsamlingen.
+\item \label{gf-slut} Opstilling af kandidatur til bestyrelsen skal være
+bestyrelsen i hænde senest to uger før afholdelse af generalforsamlingen og
+gøres tilgængelig på foreningens webside mindst en uge før generalforsamlingen.
 
   \begin{stykenum}
 
@@ -209,7 +211,8 @@ generalforsamling.
 
   \begin{stykenum}
 
-  \item De ekstraordinære generalforsamlinger indkaldes og afholdes jf. § 4-8.
+  \item De ekstraordinære generalforsamlinger indkaldes og afholdes jf.\\
+        \textsection~\ref{gf-start}--\ref{gf-slut}.
 
   \item Dog er den minimale dagsorden til ekstraordinære generalforsamlinger
         som følger:
@@ -310,13 +313,14 @@ foreningen af den samlede bestyrelse.
 
 \begin{enumerate}[resume*=afsnit]
 
-\item Disse vedtægter kan kun ændres med 2/3 flertal på en generalforsamling,
-hvor ændringsforslaget fremgår af dagsordenen.
+\item \label{vedtaegtsaendringer} Disse vedtægter kan kun ændres med 2/3
+flertal på en generalforsamling, hvor ændringsforslaget fremgår af dagsordenen.
 
   \begin{stykenum}
 
-  \item Ændringer i §§ 1, 2, 4, 14 og 15 kan kun vedtages med 4/5 af de
-        tilstedeværende stemmer.
+  \item Ændringer i \textsection\textsection~\ref{navn}, \ref{formaal},
+        \ref{generalforsamling}, \ref{vedtaegtsaendringer} og \ref{oploesning}
+        kan kun vedtages med 4/5 af de tilstedeværende stemmer.
 
   \item Vedtægtsændringerne træder i kraft med virkning fra den
         generalforsamling, de vedtages på.
@@ -330,16 +334,17 @@ hvor ændringsforslaget fremgår af dagsordenen.
 
 \begin{enumerate}[resume*=afsnit]
 
-\item Opløsning af foreningen kan kun finde sted med 2/3 flertal på to hinanden
-følgende generalforsamlinger, hvoraf den ene skal være den årlige. Tidsrummet
-mellem de to generalforsamlinger skal være min. 1 måned.
+\item \label{oploesning} Opløsning af foreningen kan kun finde sted med 2/3
+flertal på to hinanden følgende generalforsamlinger, hvoraf den ene skal være
+den årlige. Tidsrummet mellem de to generalforsamlinger skal være min. 1 måned.
 
   \begin{stykenum}
 
   \item Foreningens formue skal i tilfælde af opløsning anvendes i
-        over\-ensstemmelse med de i § 2 fastsatte formål eller skænkes til andre
-        studenterforeninger på DIKU. Beslutning om den konkrete anvendelse af
-        formuen træffes af den opløsende generalforsamling.
+        over\-ensstemmelse med de i \textsection~\ref{formaal} fastsatte formål
+        eller skænkes til andre studenterforeninger på DIKU. Beslutning om den
+        konkrete anvendelse af formuen træffes af den opløsende
+        generalforsamling.
 
   \end{stykenum}
 
