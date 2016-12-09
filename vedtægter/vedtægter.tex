@@ -1,3 +1,5 @@
+% vim: spell spelllang=da_dk
+
 \documentclass[a4paper]{article}
 
 % Tekstindkodning og orddeling
@@ -10,11 +12,15 @@
 
 % Brug enumerate, med disse macro'er ved hånden
 \usepackage{enumitem}
-\newenvironment{afsnitenum}{%
-  \begin{enumerate}[series=afsnit, resume*, label=\textsection~\arabic*.]%
+% afsnitenum er erklæret her for lokalitet, men kun brugt 1 gang da
+% enumereringen skal fortsætte på tværs af afsnit.
+\newenvironment{afsnitenum}{
+  \begin{enumerate}[series=afsnit, %
+    label=\textsection~\arabic*., ref=\textsection~\arabic*]%
 }{\end{enumerate}}
-\newenvironment{stykenum}{%
-  \begin{enumerate}[label=Stk.~\arabic*., start=2]%
+\newenvironment{stykenum}{
+  \begin{enumerate}[%
+    label=Stk.~\arabic*., ref=\theenumi~Stk.~\arabic*, start=2]
 }{\end{enumerate}}
 
 % Fint hoved og fod
@@ -43,28 +49,28 @@
 
 \section*{Navn, formål og hjemsted}
 
-\begin{enumerate}[series=afsnit, label=\textsection~\arabic*.]%
+\begin{afsnitenum}
 
 \item Foreningens navn er "DIKUNIX".
 
-\begin{stykenum}
+  \begin{stykenum}
 
-\item Foreningens hjemsted er Datalogisk institut ved Københavns Universitet
-(DIKU), Københavns Kommune.
+  \item Foreningens hjemsted er Datalogisk institut ved Københavns Universitet
+        (DIKU), Københavns Kommune.
 
-\end{stykenum}
+  \end{stykenum}
 
 \item Foreningens formål er at opsætte og vedligeholde EDB-baserede tjenester
 til støtte af sociale foreninger og studerende i almindelighed på DIKU.
 
-\begin{stykenum}
+  \begin{stykenum}
 
-\item Foreningen er apolitisk og uafhængig af partipolitiske, institutionel\-le
-og erhvervsmæssige interesser.
+  \item Foreningen er apolitisk og uafhængig af partipolitiske,
+        institutionel\-le og erhvervsmæssige interesser.
 
-\end{stykenum}
+  \end{stykenum}
 
-\end{enumerate}
+\end{afsnitenum}
 
 
 \section*{Medlemskab}
@@ -73,20 +79,163 @@ og erhvervsmæssige interesser.
 
 \item Som medlem optages enhver, som er ansat eller studerende på DIKU.
 Medlemskab tegnes for et studieår af gangen. Ved ophør af tilhørsforhold til
-institutet, bortfalder stemmeret øjeblikkeligt.  Medlemskab tegnes dog fortsat
+instituttet, bortfalder stemmeret øjeblikkeligt.  Medlemskab tegnes dog fortsat
 for det efterfølgende studieår, og kan forlænges årligt efter videre aftale med
 den siddende bestyrelse.
 
-\begin{stykenum}
+  \begin{stykenum}
 
-\item Der betales ikke kontingent, da foreningens drift skal hvile i sig selv.
-Bestyrelsen har dog ret til at opkræve kontingent for fortsat medlemskab efter
-ophør af tilhørsforhold til institutet, ud over det første efterfølgende
-studieår.
+  \item Der betales ikke kontingent, da foreningens drift skal hvile i sig
+        selv.  Bestyrelsen har dog ret til at opkræve kontingent for fortsat
+        medlemskab efter ophør af tilhørsforhold til instituttet, ud over
+        det første efterfølgende studieår.
 
 \end{stykenum}
 
 \end{enumerate}
+
+
+\section*{Generalforsamling}
+
+\begin{enumerate}[resume*=afsnit]
+
+\item Generalforsamlingen er foreningens øverste myndighed.
+
+  \begin{stykenum}
+
+  \item Der afholdes årligt en generalforsamling i efterårssemestret, indkaldt
+        af bestyrelsen, hvor foreningens bestyrelse vælges.
+
+  \item \label{stemmeberettigede} Stemmeberettigede er indskrevne studerende og
+        ansatte ved DIKU.
+
+  \item Hver af de i \ref{stemmeberettigede} nævnte bærer hver en stemme.
+
+  \item Det er ikke tilladt at stemme med fuldmagt.
+
+  \end{stykenum}
+
+\end{enumerate}
+
+
+\section*{Generalforsamling}
+
+\begin{enumerate}[resume*=afsnit]
+
+\item Der indkaldes til den årlige generalforsamling mindst fire uger før\\ afholdelse.
+
+  \begin{stykenum}
+
+  \item Indkaldelsen skal være offentlig og tilgængelig på DIKU.
+
+  \item På generalforsamlingen kan der stilles ændringsforslag til\\vedtægter og
+        forslag til arbejdsplan mm. og der kan opstilles\\kandidaturer til
+        bestyrelsen.
+
+  \item Forslag skal være bestyrelsen i hænde senest to uger før afholdelse af
+        den årlige generalforsamling.
+
+  \item Forslag og dagsorden skal gøres tilgængelig på foreningens webside
+        senest to uger før afholdelse af generalforsamling.
+
+  \item Ændringsforslag til forslag skal være bestyrelsen i hænde senest en uge
+        før afholdelse af generalforsamlingen og gøres tilgængelig på
+        foreningens webside.
+
+  \item Ændringsforslag til ændringsforslag kan stilles mundtligt på
+        generalforsamlingen.
+
+  \end{stykenum}
+
+\item Dagsordnen til den årlige generalforsamling skal som minimum indeholde:
+
+  \begin{itemize}
+  \item Formalia
+    \begin{itemize}
+    \item Valg af dirigent.
+    \item Valg af stemmetællere.
+    \item Valg af referent.
+    \item Godkendelse af dagsorden.
+    \end{itemize}
+  \item Indkommende forslag.
+  \item Valg til bestyrelsen.
+  \item Valg af revisor
+  \item Godkendelse af regnskab.
+  \item Evt.
+  \end{itemize}
+
+\end{enumerate}
+
+\section*{Valg til bestyrelse}
+
+\begin{enumerate}[resume*=afsnit]
+
+\item Opstilling af kandidatur til bestyrelsen skal være bestyrelsen i hænde
+senest to uger før afholdelse af generalforsamlingen og gøres tilgængelig på
+foreningens webside mindst en uge før generalforsamlingen.
+
+  \begin{stykenum}
+
+  \item Opstillingsberettigede til bestyrelsen er indskrevne studerende og
+        ansatte ved DIKU.
+
+  \item Er der ikke anmeldt et tilstrækkeligt antal kandidater til bestyrelsen,
+        afholdes først tillidsvalg om de rettidige opstillede kandidater,\\
+        hvorefter det er muligt at opstille under mødet.
+
+  \item Er antallet af anmeldte kandidater lig antallet af pladser afholdes
+        tillidsvalg.
+
+  \item Er antallet af anmeldte kandidater større end antallet af pladser,
+        afholdes forholdstalsvalg, hvor hver stemmeberettiget har maksimalt lige
+        så mange stemmer som antallet af bestyrelsespladser. Hver
+        stemmeberettiget kan kun give en stemme per opstillet kandidat.
+
+  \end{stykenum}
+
+\item Forslag vedtages ved 2/3 flertal af de fremmødte.
+
+  \begin{stykenum}
+
+  \item Ændringsforslag til forslag vedtages ved simpelt flertal.
+
+  \item Først stemmes om ændringsforslag og derefter om forslag.
+
+  \end{stykenum}
+
+\end{enumerate}
+
+
+\section*{Valg til bestyrelse}
+
+\begin{enumerate}[resume*=afsnit]
+
+\item Hvis et simpelt flertal af bestyrelsens medlemmer eller mindst 10 af de
+stemmeberettigede ønsker det, kan der indkaldes til en ekstraordinær
+generalforsamling.
+
+  \begin{stykenum}
+
+  \item De ekstraordinære generalforsamlinger indkaldes og afholdes jf. § 4-8.
+
+  \item Dog er den minimale dagsorden til ekstraordinære generalforsamlinger
+        som følger:
+
+        \begin{itemize}
+        \item Formalia
+          \begin{itemize}
+          \item Valg af dirigent.
+          \item Valg af stemmetællere.
+          \item Valg af referent.
+          \item Godkendelse af dagsorden.
+          \end{itemize}
+        \item Evt.
+        \end{itemize}
+
+  \end{stykenum}
+
+\end{enumerate}
+
 
 \bigskip
 
