@@ -28,7 +28,7 @@
 
 ## Generalforsamling
 
-    § 3. Generalforsamlingen er foreningens øverste myndighed.
+    § 4. Generalforsamlingen er foreningens øverste myndighed.
 
         Stk. 2. Der afholdes årligt en generalforsamling i
                 efterårssemestret, indkaldt af bestyrelsen, hvor
@@ -40,7 +40,7 @@
 
         Stk. 5. Det er ikke tilladt at stemme med fuldmagt.
 
-    § 4. Der indkaldes til den årlige generalforsamling mindst fire uger før afholdelse.
+    § 5. Der indkaldes til den årlige generalforsamling mindst fire uger før afholdelse.
 
         Stk. 2. Indkaldelsen skal være offentlig og tilgængelig for studerende ved DIKU.
 
@@ -62,7 +62,7 @@
         Stk. 7. Ændringsforslag til ændringsforslag kan stilles
                 mundtligt på generalforsamlingen.
 
-    § 5. Dagsordnen til den årlige generalforsamling skal som minimum indeholde:
+    § 6. Dagsordnen til den årlige generalforsamling skal som minimum indeholde:
             * Formalia
                 * Valg af dirigent.
                 * Valg af stemmetællere.
@@ -77,7 +77,7 @@
 
 ## Valg til bestyrelse
 
-    § 6. Opstilling af kandidatur til bestyrelsen skal være bestyrelsen
+    § 7. Opstilling af kandidatur til bestyrelsen skal være bestyrelsen
          i hænde senest to uger før afholdelse af generalforsamlingen og
          gøres tilgængelig på foreningens webside mindst en uge før
          generalforsamlingen.
@@ -99,7 +99,7 @@
                 antallet af bestyrelsespladser. Hver stemmeberettiget kan kun
                 give en stemme per opstillet kandidat.
 
-    § 7. Forslag vedtages ved 2/3 flertal af de fremmødte.
+    § 8. Forslag vedtages ved 2/3 flertal af de fremmødte.
 
         Stk. 2. Ændringsforslag til forslag vedtages ved simpelt flertal.
 
@@ -107,7 +107,7 @@
 
 ## Ekstraordinær generalforsamling
 
-    § 8. Hvis et simpelt flertal af bestyrelsens medlemmer eller mindst
+    § 9. Hvis et simpelt flertal af bestyrelsens medlemmer eller mindst
     10 af de stemmeberettigede ønsker det, kan der indkaldes til en
     ekstraordinær generalforsamling.
 
@@ -125,14 +125,14 @@
 
 ## Bestyrelsens sammensætning
 
-    § 9. Bestyrelsen består af op til 7 personer og vælges på den årlige
-         generalforsamling.
+    § 10. Bestyrelsen består af op til 7 personer og vælges på den årlige
+          generalforsamling.
 
       Stk. 2. Bestyrelsens medlemmer vælges for 1 år ad gangen.
 
 Bestyrelsens ansvar og arbejde
 
-    § 10. Bestyrelsen har, mellem generalforsamlingerne, ansvaret for foreningen.
+    § 11. Bestyrelsen har, mellem generalforsamlingerne, ansvaret for foreningen.
 
         Stk. 2. Bestyrelsen leder foreningen i overensstemmelse med
                 nærværende vedtægter og generalforsamlingens
@@ -148,7 +148,7 @@ Bestyrelsens ansvar og arbejde
 
 ## Økonomi, regnskab og revision
 
-    § 11. Foreningens regnskabsår følger kalenderåret.
+    § 12. Foreningens regnskabsår følger kalenderåret.
 
         Stk. 2. Bestyrelsen er ansvarlig overfor generalforsamlingen for
                 budget samt regnskab.
@@ -159,7 +159,7 @@ Bestyrelsens ansvar og arbejde
 
 ## Tegningsregler og hæftelse
 
-    § 12. Foreningen tegnes udadtil ved underskrift af mindst to af
+    § 13. Foreningen tegnes udadtil ved underskrift af mindst to af
           bestyrelsens medlemmer. Ved optagelse af lån og ved salg/
           pantsætning af fast ejendom tegnes foreningen af den samlede
           bestyrelse.
@@ -169,7 +169,7 @@ Bestyrelsens ansvar og arbejde
 
 ## Vedtægtsændringer
 
-    § 13. Disse vedtægter kan kun ændres med 2/3 flertal på en
+    § 14. Disse vedtægter kan kun ændres med 2/3 flertal på en
           generalforsamling, hvor ændringsforslaget fremgår af
           dagsordenen.
 
@@ -181,7 +181,7 @@ Bestyrelsens ansvar og arbejde
 
 ## Opløsning
 
-    § 14. Opløsning af foreningen kan kun finde sted med 2/3 flertal på
+    § 15. Opløsning af foreningen kan kun finde sted med 2/3 flertal på
           to hinanden følgende generalforsamlinger, hvoraf den ene skal
           være den årlige. Tidsrummet mellem de to generalforsamlinger
           skal være min. 1 måned.
