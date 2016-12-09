@@ -12,6 +12,20 @@
         Stk. 2. Foreningen er apolitisk og uafhængig af partipolitiske,
                 institutionelle og erhvervsmæssige interesser.
 
+## Medlemskab
+
+    § 3. Som medlem optages enhver, som er ansat eller studerende på DIKU.
+         Medlemskab tegnes for et studieår af gangen. Ved ophør af
+         tilhørsforhold til institutet, bortfalder stemmeret øjeblikkeligt.
+         Medlemskab tegnes dog fortsat for det efterfølgende studieår, og
+         kan forlænges årligt efter videre aftale med den siddende
+         bestyrelse.
+
+       Stk. 2. Der betales ikke kontingent, da foreningens drift skal hvile
+               i sig selv. Bestyrelsen har dog ret til at opkræve kontingent
+               for fortsat medlemskab efter ophør af tilhørsforhold til
+               institutet, ud over det første efterfølgende studieår.
+
 ## Generalforsamling
 
     § 3. Generalforsamlingen er foreningens øverste myndighed.
