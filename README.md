@@ -36,25 +36,25 @@
 
         Stk. 3. Stemmeberettigede er indskrevne studerende og ansatte ved DIKU.
 
-        Stk. 4. Hver af de i §3 Stk. 3. nævnte bærer hver en stemme.
+        Stk. 4. Hver af de i §4 Stk. 3. nævnte bærer hver en stemme.
 
         Stk. 5. Det er ikke tilladt at stemme med fuldmagt.
 
     § 5. Der indkaldes til den årlige generalforsamling mindst fire uger før afholdelse.
 
-        Stk. 2. Indkaldelsen skal være offentlig og tilgængelig for studerende ved DIKU.
+        Stk. 2. Indkaldelsen skal være offentlig og tilgængelig på DIKU.
 
         Stk. 3. På generalforsamlingen kan der stilles ændringsforslag
                 til vedtægter og forslag til arbejdsplan mm. og der kan
                 opstilles kandidaturer til bestyrelsen.
 
-        Stk. 4. Forslag skal være bestyrelsen i hænde senest tre uger
+        Stk. 4. Forslag skal være bestyrelsen i hænde senest to uger
                 før afholdelse af den årlige generalforsamling.
 
-        Stk. 5. Forslag skal gøres tilgængelig på foreningens webside
+        Stk. 5. Forslag og dagsorden skal gøres tilgængelig på foreningens webside
                 senest to uger før afholdelse af generalforsamling.
 
-        Stk.  6. Ændringsforslag til forslag skal være bestyrelsen i
+        Stk. 6. Ændringsforslag til forslag skal være bestyrelsen i
                 hænde senest en uge før afholdelse af
                 generalforsamlingen og gøres tilgængelig på foreningens
                 webside.
@@ -111,7 +111,7 @@
     10 af de stemmeberettigede ønsker det, kan der indkaldes til en
     ekstraordinær generalforsamling.
 
-        Stk. 2. De ekstraordinære generalforsamlinger indkaldes og afholdes jf. § 3-7.
+        Stk. 2. De ekstraordinære generalforsamlinger indkaldes og afholdes jf. § 4-8.
 
         Stk. 3. Dog er den minimale dagsorden til ekstraordinære
         generalforsamlinger som følger:
@@ -140,7 +140,7 @@ Bestyrelsens ansvar og arbejde
 
         Stk. 3. Bestyrelsen træffer beslutninger med simpelt flertal.
 
-        Stk. 4. Bestyrelsen vælger imellem sig en formand og en kaserer.
+        Stk. 4. Bestyrelsen vælger imellem sig en formand og en kasserer.
 
         Stk. 5. Bestyrelsen fastsætter selv sin forretningsorden. Den
                 kan nedsætte underudvalg og arbejdsgrupper til
@@ -173,7 +173,7 @@ Bestyrelsens ansvar og arbejde
           generalforsamling, hvor ændringsforslaget fremgår af
           dagsordenen.
 
-        Stk. 2. Ændringer i §§ 1, 2, 3, 13 og 14 kan kun vedtages med
+        Stk. 2. Ændringer i §§ 1, 2, 4, 14 og 15 kan kun vedtages med
                 4/5 af de tilstedeværende stemmer.
 
         Stk. 3. Vedtægtsændringerne træder i kraft med virkning fra den
