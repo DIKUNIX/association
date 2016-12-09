@@ -1,0 +1,94 @@
+\documentclass[a4paper]{article}
+
+% Tekstindkodning og orddeling
+\usepackage[utf8]{inputenc}
+\usepackage[danish, english]{babel}
+
+% Palatino skrifttype
+\usepackage[T1]{fontenc}
+\usepackage{mathpazo}
+
+% Brug enumerate, med disse macro'er ved hånden
+\usepackage{enumitem}
+\newenvironment{afsnitenum}{%
+  \begin{enumerate}[label=\textsection~\arabic*.]%
+}{\end{enumerate}}
+\newenvironment{stykenum}{%
+  \begin{enumerate}[label=Stk.~\arabic*., start=2]%
+}{\end{enumerate}}
+
+% Fint hoved og fod
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\cfoot{\thepage/\pageref*{LastPage}}
+\fancypagestyle{first}{%
+  \fancyhf{}%
+  \cfoot{\thepage/\pageref*{LastPage}}%
+}
+
+\title{Vedtægter for DIKUNIX}
+\author{Datalogisk institut, Københavns Universitet}
+\date{Som vedtaget den 9. december 2016.}
+
+
+\begin{document}
+
+\maketitle
+
+\section*{Navn, formål og hjemsted}
+
+\begin{afsnitenum}
+
+\item Foreningens navn er "DIKUNIX".
+
+\begin{stykenum}
+
+\item Foreningens hjemsted er Datalogisk institut ved Københavns Universitet
+(DIKU), Københavns Kommune.
+
+\end{stykenum}
+
+\item Foreningens formål er at opsætte og vedligeholde EDB-baserede tjenester
+til støtte af sociale foreninger og studerende i almindelighed på DIKU.
+
+\begin{stykenum}
+
+\item Foreningen er apolitisk og uafhængig af partipolitiske, institutionel\-le
+og erhvervsmæssige interesser.
+
+\end{stykenum}
+
+\end{afsnitenum}
+
+
+\section*{Medlemskab}
+
+\begin{afsnitenum}
+
+\item Som medlem optages enhver, som er ansat eller studerende på DIKU.
+Medlemskab tegnes for et studieår af gangen. Ved ophør af tilhørsforhold til
+institutet, bortfalder stemmeret øjeblikkeligt.  Medlemskab tegnes dog fortsat
+for det efterfølgende studieår, og kan forlænges årligt efter videre aftale med
+den siddende bestyrelse.
+
+\begin{stykenum}
+
+\item Der betales ikke kontingent, da foreningens drift skal hvile i sig selv.
+Bestyrelsen har dog ret til at opkræve kontingent for fortsat medlemskab efter
+ophør af tilhørsforhold til institutet, ud over det første efterfølgende
+studieår.
+
+\end{stykenum}
+
+\end{afsnitenum}
+
+\bigskip
+
+\begin{center}
+
+\emph{Ovenstående vedtægter er vedtaget den 9. december 2016 på den stiftende
+generalforsamling.}
+
+\end{center}
+
+\end{document}
