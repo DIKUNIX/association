@@ -11,7 +11,7 @@
 % Brug enumerate, med disse macro'er ved hånden
 \usepackage{enumitem}
 \newenvironment{afsnitenum}{%
-  \begin{enumerate}[label=\textsection~\arabic*.]%
+  \begin{enumerate}[series=afsnit, resume*, label=\textsection~\arabic*.]%
 }{\end{enumerate}}
 \newenvironment{stykenum}{%
   \begin{enumerate}[label=Stk.~\arabic*., start=2]%
@@ -38,7 +38,7 @@
 
 \section*{Navn, formål og hjemsted}
 
-\begin{afsnitenum}
+\begin{enumerate}[series=afsnit, label=\textsection~\arabic*.]%
 
 \item Foreningens navn er "DIKUNIX".
 
@@ -59,12 +59,12 @@ og erhvervsmæssige interesser.
 
 \end{stykenum}
 
-\end{afsnitenum}
+\end{enumerate}
 
 
 \section*{Medlemskab}
 
-\begin{afsnitenum}
+\begin{enumerate}[resume*=afsnit]
 
 \item Som medlem optages enhver, som er ansat eller studerende på DIKU.
 Medlemskab tegnes for et studieår af gangen. Ved ophør af tilhørsforhold til
@@ -81,8 +81,7 @@ studieår.
 
 \end{stykenum}
 
-\end{afsnitenum}
-
+\end{enumerate}
 
 \bigskip
 
