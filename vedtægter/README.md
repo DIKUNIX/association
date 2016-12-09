@@ -1,6 +1,6 @@
 # Vedtægter
 
-Kildetekst og arkiv til vores [vedtægter](vedtægter-2016-12-09.pdf).
+Kildetekst og arkiv til [vores vedtægter](vedtægter-2016-12-09.pdf).
 
 ## Hvordan ændrer jeg vedtægterne?
 
