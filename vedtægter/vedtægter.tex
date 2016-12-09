@@ -36,6 +36,12 @@
 \renewcommand{\headsep}{40pt}
 \setlength{\headheight}{20pt}
 \pagestyle{fancy}
+\makeatletter
+\let\headtitle\@title
+\let\headdate\@date
+\makeatother
+\lhead{\headtitle}
+\rhead{\headdate}
 \cfoot{\thepage/\pageref{LastPage}}
 \fancypagestyle{first}{%
   \fancyhf{}%
