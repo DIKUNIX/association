@@ -34,7 +34,7 @@
                 efterårssemestret, indkaldt af bestyrelsen, hvor
                 foreningens bestyrelse vælges.
 
-        Stk. 3. Stemmeberettigede er indskrevne studerende ved DIKU.
+        Stk. 3. Stemmeberettigede er indskrevne studerende og ansatte ved DIKU.
 
         Stk. 4. Hver af de i §3 Stk. 3. nævnte bærer hver en stemme.
 
