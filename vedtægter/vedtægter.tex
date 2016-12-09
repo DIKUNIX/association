@@ -20,10 +20,14 @@
 % Fint hoved og fod
 \usepackage{fancyhdr}
 \usepackage{lastpage}
-\cfoot{\thepage/\pageref*{LastPage}}
+\renewcommand{\headrulewidth}{0in}
+\renewcommand{\headsep}{40pt}
+\setlength{\headheight}{20pt}
+\pagestyle{fancy}
+\cfoot{\thepage/\pageref{LastPage}}
 \fancypagestyle{first}{%
   \fancyhf{}%
-  \cfoot{\thepage/\pageref*{LastPage}}%
+  \cfoot{\thepage/\pageref{LastPage}}%
 }
 
 
@@ -35,6 +39,7 @@
 \begin{document}
 
 \maketitle
+\thispagestyle{first}
 
 \section*{Navn, formål og hjemsted}
 
